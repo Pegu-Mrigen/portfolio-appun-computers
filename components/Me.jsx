@@ -35,9 +35,8 @@ const Me = () => {
               quality, flexibility, self-confidence and ability to interact with
               peoples and work in a team. That is why I always look for new
               clients who comes with their new ideas to grow bussiness. I try to
-              help my clients to earn more money. What's on Your Mind ? Share
-              your project with me and get freelancing service in reasonable
-              price.
+              help my clients to earn more money. Share your project with me and
+              get freelancing service in reasonable price.
             </p>
           </div>
           <div className="flex items-center justify-center gap-10">

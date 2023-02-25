@@ -11,7 +11,7 @@ const Contact = () => {
           Conatct
         </h2>
 
-        <h1 className="py-4 max-w-lg text-xl">Let's discuss your project -</h1>
+        <h1 className="py-4 max-w-lg text-xl">Let's discuss your project</h1>
 
         <div className="flex flex-col md:flex-row gap-8 shadow-xl shadow-blue-300 bg-white">
           <div className="w-full md:w-1/2 h-full rounded-xl p-4">

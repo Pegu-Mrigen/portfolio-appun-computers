@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import logo from "../public/assets/logo.png";
 import {
   FaBars,
   FaFacebook,
@@ -38,7 +40,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">
         <Link href="/#home">
           <h1 className="text-3xl lg:text-4xl font-bold uppercase underline underline-offset-2 tracking-wider">
-            Mrigen
+            <Image className="w-[70px] h-[70px]" src={logo} />
           </h1>
         </Link>
         <div>
@@ -79,15 +81,8 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/#home">
-                <h2
-                  onClick={() => setNavigation(false)}
-                  className="text-3xl  font-bold uppercase underline underline-offset-2 tracking-wider"
-                >
-                  Home
-                </h2>
-              </Link>
-              <div className="p-3 cursor-pointer ">
+              <Link href="/#home"></Link>
+              <div className="p-2 cursor-pointer ">
                 <FaTimes
                   onClick={() => {
                     setNavigation(false);
@@ -96,7 +91,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="mt-24 flex flex-col h-fit gap-20">
+          <div className="mt-18 flex flex-col h-fit gap-12">
             <ul className="uppercase">
               {links.map(({ id, link }) => (
                 <Link key={id} href={`/#${link}`}>
@@ -112,7 +107,7 @@ const Navbar = () => {
             <div>
               <div
                 className="grid grid-cols-2 mx-auto w-4/5
-               gap-10 "
+                gap-8 "
               >
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer ">
                   <FaLinkedin size={25} />

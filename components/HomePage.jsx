@@ -10,7 +10,7 @@ export default function HomePage() {
         <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl ">
           <Image src={me} alt="me" />
         </div>
-        <h1 className="uppercase font-bold text-gray-600 text-7xl">
+        <h1 className="uppercase font-bold text-gray-600 text-6xl">
           full stack developer
         </h1>
         <p className="text-gray-600 text-xl max-w-sm mx-auto">

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import me from "../public/assets/MyImage.jpg";
+import me from "../public/assets/MyImage1.jpg";
 import Link from "next/link";
 import { MdExpandMore } from "react-icons/md";
 
@@ -7,8 +7,8 @@ export default function HomePage() {
   return (
     <div id="HomePage" className="h-screen w-full text-center">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
-        <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl ">
-          <Image src={me} alt="me" />
+        <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl mb-16 ">
+          <Image src={me} alt="me" className=" mb-40" />
         </div>
         <h1 className="uppercase font-bold text-gray-600 text-5xl">
           full stack developer

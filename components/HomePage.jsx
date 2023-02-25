@@ -1,5 +1,5 @@
 import Image from "next/image";
-import me from "../public/assets/me3.png";
+import me from "../public/assets/MyImage.jpg";
 import Link from "next/link";
 import { MdExpandMore } from "react-icons/md";
 
@@ -10,7 +10,7 @@ export default function HomePage() {
         <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl ">
           <Image src={me} alt="me" />
         </div>
-        <h1 className="uppercase font-bold text-gray-600 text-6xl">
+        <h1 className="uppercase font-bold text-gray-600 text-5xl">
           full stack developer
         </h1>
         <p className="text-gray-600 text-xl max-w-sm mx-auto">

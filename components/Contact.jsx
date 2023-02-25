@@ -54,7 +54,7 @@ const Contact = () => {
                       <input
                         type="text"
                         name="name"
-                        className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
+                        className="border-2 rounded-lg p-3 mb-[-20px] flex focus:outline-none border-blue-200"
                       />
                     </div>
 

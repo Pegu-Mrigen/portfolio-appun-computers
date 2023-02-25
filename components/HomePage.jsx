@@ -18,13 +18,13 @@ export default function HomePage() {
           application using technologies like React JS, Tailwind CSS, Next JS
           and SCSS.
         </p>
-        <Link href="/#me" >
-        <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider">
-          know more
-          <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
-            <MdExpandMore size={25} />
-          </span>
-        </div>
+        <Link href="/#me">
+          <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider">
+            know more
+            <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
+              <MdExpandMore size={25} />
+            </span>
+          </div>
         </Link>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import contact from "../public/assets/contact.png";
+import contact from "../public/assets/contact.jpg";
 
 const Contact = () => {
   return (
@@ -54,7 +54,7 @@ const Contact = () => {
                       <input
                         type="text"
                         name="name"
-                        className="border-2 rounded-lg p-3 mb-[-20px] flex focus:outline-none border-blue-200"
+                        className="border-2 rounded-lg p-3 mb-[-40px] flex focus:outline-none border-blue-200"
                       />
                     </div>
 

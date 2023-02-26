@@ -46,7 +46,7 @@ const Navbar = () => {
             <Image className="w-[70px] h-[70px]" src={logo} alt="img" />
           </h1>
         </Link>
-        <div  >
+        <div>
           <ul className="hidden md:flex">
             {links.map(({ id, link }) => (
               <Link href={`/#${link}`} key={id}>
@@ -78,7 +78,7 @@ const Navbar = () => {
         <div
           className={
             navigation
-              ? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white p-10 ease in duration-500  overflow-auto"
+              ? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white p-10 ease in duration-500  overflow-scroll"
               : "fixed top-0 left-[-100%] p-10 h-full duration-500 "
           }
         >

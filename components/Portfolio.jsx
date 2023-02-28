@@ -85,11 +85,9 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <p className="py-4 w-full p-5 m-5 text-center">
-          I love to explore all the latest technologies related to web
-          application development. I try to work in different latest web
-          development libraries and frameworks. Recently, I rebuild few websites
-          using technologies like SCSS, Tailwind CSS, React JS, Next JS, Strapi
-          etc. The followings are images from those projects.
+          
+
+          I love to explore all the latest technologies related to web application development. I try to work in different latest web development libraries and frameworks. Recently, I rebuild few websites using technologies like SCSS, Tailwind CSS, React JS, Next JS, Strapi etc. The followings are images from those projects.
         </p>
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           {/* {portfolios.map(({ id, title, imageSrc, url }) => (
@@ -107,7 +105,7 @@ const Portfolio = () => {
             </Link>
           ))} */}
 
-          <Link  href="/portfolio/products-page">
+          <Link href="/portfolio/products-page">
             <div className="cursor-pointer group shadow-md  shadow-gray-600 overflow-hidden rounded-md">
               <Image
                 src={port5}
@@ -115,11 +113,11 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-110"
               />
               <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
-              Filtered products
+                Filtered products
               </h2>
             </div>
           </Link>
-          <Link  href="/portfolio/Ecommerce-Website">
+          <Link href="/portfolio/Ecommerce-Website">
             <div className="cursor-pointer group shadow-md  shadow-gray-600 overflow-hidden rounded-md">
               <Image
                 src={port2}
@@ -127,11 +125,11 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-110"
               />
               <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
-              Ecommerce Website
+                Ecommerce Website
               </h2>
             </div>
           </Link>
-          <Link  href="/portfolio/food-ordering-app">
+          <Link href="/portfolio/food-ordering-app">
             <div className="cursor-pointer group shadow-md  shadow-gray-600 overflow-hidden rounded-md">
               <Image
                 src={port6}
@@ -139,11 +137,11 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-110"
               />
               <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
-              Food ordering app
+                Food ordering app
               </h2>
             </div>
           </Link>
-          <Link  href="/portfolio/GYM-website">
+          <Link href="/portfolio/GYM-website">
             <div className="cursor-pointer group shadow-md  shadow-gray-600 overflow-hidden rounded-md">
               <Image
                 src={port4}
@@ -151,11 +149,11 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-110"
               />
               <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
-              GYM Website
+                GYM Website
               </h2>
             </div>
           </Link>
-          <Link  href="/portfolio/portfolio-page">
+          <Link href="/portfolio/portfolio-page">
             <div className="cursor-pointer group shadow-md  shadow-gray-600 overflow-hidden rounded-md">
               <Image
                 src={port8}
@@ -163,11 +161,11 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-110"
               />
               <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
-              Portfolio Page
+                Portfolio Page
               </h2>
             </div>
           </Link>
-          <Link  href="/portfolio/dress-products-page">
+          <Link href="/portfolio/dress-products-page">
             <div className="cursor-pointer group shadow-md  shadow-gray-600 overflow-hidden rounded-md">
               <Image
                 src={port9}
@@ -175,7 +173,7 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-110"
               />
               <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
-              Products Page
+                Products Page
               </h2>
             </div>
           </Link>

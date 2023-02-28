@@ -79,12 +79,12 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div id="portfolio" className="w-full pt-6">
-      <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
+    <div id="portfolio" className="w-full">
+      <div className="max-w-screen-xl mx-auto px-8 py-8 text-center md:text-left">
         <h2 className="text-5xl md:text-7xl  tracking-wider uppercase text-blue-500 font-bold">
           Portfolio
         </h2>
-        <p className="py-4 w-full p-5 m-5">
+        <p className="py-4 w-full p-5 m-5 text-center">
           I love to explore all the latest technologies related to web
           application development. I try to work in different latest web
           development libraries and frameworks. Recently, I rebuild few websites

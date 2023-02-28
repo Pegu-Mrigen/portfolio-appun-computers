@@ -81,7 +81,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="w-full" >
       <div className="max-w-screen-xl mx-auto px-8 py-8 text-center md:text-left">
-        <h2 className="text-5xl md:text-7xl  tracking-wider uppercase text-blue-500 font-bold">
+        <h2 className="text-5xl mt-8 md:text-7xl  tracking-wider uppercase text-blue-500 font-bold">
           Portfolio
         </h2>
         <p className="py-4 w-full p-5 m-5 text-center">

@@ -25,7 +25,7 @@ const Contact = () => {
 
             <div
               className="grid grid-cols-2 mx-auto w-4/5
-               gap-10 "
+               gap-14 mt-6 md:mt-0 md:gap-6"
             >
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200  p-3 cursor-pointer ">
                 <FaLinkedin size={25} />

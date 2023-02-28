@@ -10,8 +10,8 @@ const Me = () => {
           <h2 className="text-5xl md:text-7xl  tracking-wider uppercase text-blue-500 font-bold">
             me
           </h2>
-          <div className="shadow-xl shadow-blue-300 my-8 p-8 ">
-            <p className="py-4 max-w-5xl mx-auto">
+          <div className="shadow-xl shadow-blue-300 p-8 ">
+            <p className="max-w-5xl mx-auto">
               I am freelance Front-End Designer and Backend Developer of almost
               all types of websites. I can help your business to get online and
               grow promtly. I do have more than 10 years of working experience
